@@ -1,0 +1,12 @@
+# Ignore large forensic images and captures
+*.pcap
+*.pcapng
+*.mem
+*.raw
+*.ad1
+*.E01
+
+# Python specifics
+__pycache__/
+*.py[cod]
+.env
