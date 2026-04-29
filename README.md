@@ -1,39 +1,45 @@
-# Digital Data Chronicles 🛡️
-**Master Forensic Case Files & IR Documentation**
+<div align="center">
 
-This repository is a collection of technical investigations and automated solutions developed for Digital Forensics and Incident Response (DFIR). Each directory represents a standalone case or toolset.
+# The Digital Detective Chronicles
+**A Ledger of Digital Forensics, Automated Clue-Hunting, & IR Strategy**
 
-## 📂 Active Case Files
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGFlM3FmY3RhYmd2Nmkzam9sOHRhcWR4NGE0cmIyMGJ5amdwdnN1dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HnykGY05bF8iGU1XdL/giphy.gif" width="300" alt="Quirky Detective Gif">
 
-### [Case 001: CloudNano Triage](./Case-001-CloudNano-Triage)
-* **Objective:** Rapid risk-based prioritization of cloud-based artifacts.
-* **Status:** Completed
-* **Key Tech:** Python, Log Analysis
-
-### [Case 002: Digital Evidence Parser](./Case-002-Evidence-Parser)
-* **Objective:** Automation of repetitive log parsing to accelerate timeline creation.
-* **Status:** In Development
-* **Key Tech:** Python, Regex, JSON
-
-### [Case 003: Network Forensics & Lateral Movement](./Case-003-Network-Forensics)
-* **Objective:** Identifying unauthorized access and movement within a virtualized network.
-* **Status:** Planned
+### *"If it beeped, connected, or logged, I'm probably investigating it."*
 
 ---
-*Created and maintained to bridge technical foundations with high-level IR strategy.*
+`ALERT_LEVEL: Mildly Witty` • `STATUS: Hunting for IOCs`
+---
 
-### digital-data-chronicles/
-├── .gitignore
-├── README.md 
-├── Case-001-CloudNano-Triage/
-│   ├── evidence/           # Evidence metadata (not raw large files)
-│   ├── scripts/            # Triage automation (Python/Bash)
-│   ├── findings/           # Analysis & Risk-Prioritization report
-│   └── README.md           # Case-specific summary
-├── Case-002-Evidence-Parser/
-│   ├── src/                # The Python parser code
-│   ├── samples/            # Example log files
-│   └── docs/               # Tool documentation
-├── Case-003-Network-Forensics/
-├── Case-004-Memory-Analysis/
-└── IR-Playbooks/           # General strategy and response procedures
+</div>
+
+---
+
+## 🕵️‍♀️ The Investigator
+* **Status:** Currently hunting IOCs in CloudNano.
+* **Fuel:** 90% Caffeine, 10% Python logic.
+* **Philosophy:** If it’s not documented, it didn't happen.
+
+---
+
+## 🚀 Strategic Pillars
+* **High-Velocity Triage:** Because nobody has time for a 6-hour scan when the server is on fire.
+* **Evidence Integrity:** SHA-256 is my best friend. If the hash doesn't match, we don't talk.
+* **Actionable IR:** Turning "scary tech data" into "here is exactly what we do next" for the bosses.
+
+---
+
+## 🛠️ Technical Arsenal
+* **Forensics:** Wireshark (PCAP), Volatility 3, Autopsy, SleuthKit.
+* **Scripting:** Python 3.x (Regex & Automation), Bash, SQL.
+* **Environment:** Linux (Ubuntu), Windows Server 2022, VirtualBox.
+
+---
+
+## 📂 The Case Files
+
+| Case | Investigation | Focus | Status |
+| :--- | :--- | :--- | :--- |
+| **001** | [CloudNano Triage](./Case-001-CloudNano-Triage) | Rapid Risk Scoring | `WIP` |
+| **002** | [Evidence Parser](./Case-002-Evidence-Parser) | Python Automation | `Building` |
+| **003** | [Network Forensics](./Case-003-Network-Forensics) | Traffic Analysis | `Backlog` |
