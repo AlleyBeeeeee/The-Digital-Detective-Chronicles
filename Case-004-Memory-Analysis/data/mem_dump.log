@@ -1,0 +1,7 @@
+[SYSTEM] - kernel.exe - PID: 4 - OK
+[USER] - chrome.exe - PID: 2450 - OK
+[USER] - spotify.exe - PID: 882 - OK
+[HIDDEN] - temp_malware.exe - PID: 9999 - UNKNOWN
+[USER] - vscode.exe - PID: 1205 - OK
+[SYSTEM] - svchost.exe - PID: 88 - OK
+[HIDDEN] - miner.sh - PID: 7777 - UNKNOWN
