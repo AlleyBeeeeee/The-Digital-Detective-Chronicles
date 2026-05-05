@@ -40,6 +40,14 @@
 
 | Case | Investigation | Focus | Status |
 | :--- | :--- | :--- | :--- |
-| **001** | [CloudNano Triage](./Case-001-CloudNano-Triage) | Rapid Risk Scoring | `WIP` |
-| **002** | [Evidence Parser](./Case-002-Evidence-Parser) | Python Automation | `Building` |
-| **003** | [Network Forensics](./Case-003-Network-Forensics) | Traffic Analysis | `Backlog` |
+| **001** | [CloudNano Triage](./Case-001-CloudNano-Triage) | Rapid Risk Scoring | `Completed` |
+| **002** | [Evidence Parser](./Case-002-Evidence-Parser) | Python Automation | `Completed` |
+| **003** | [Network Forensics](./Case-003-Network-Forensics) | Traffic Analysis | `Completed` |
+| **004** | [Persistence Hunter](./Case-004-Persistence-Hunter) | Registry & Startup Analysis | `Completed` |
+| **005** | [The Hash Validator](./Case-005-Hash-Validator) | Integrity & Anti-Tampering | `Completed` |
+| **006** | [The Chrono-Stitcher](./Case-006-Chrono-Stitcher) | Timeline Normalization | `Completed` |
+
+## 📞 Dispatch
+If you have a mystery that needs solving or just want to talk Python, hit me up!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/alexandrablandoncruz/)
