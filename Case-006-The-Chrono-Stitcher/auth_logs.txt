@@ -1,0 +1,5 @@
+# tracks who is coming and going
+# ensure no empty lines exist between logs and comments
+May 05 02:15:01 user_admin: Login success
+May 05 02:16:45 user_admin: Privilege escalation to ROOT
+May 05 02:25:00 guest_user: Login failure (Incorrect password)

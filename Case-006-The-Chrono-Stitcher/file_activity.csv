@@ -1,0 +1,7 @@
+#tracks what happened to the actual files on the system
+timestamp,filename,action
+2026-05-05 02:17:10,client_records.db,Accessed
+2026-05-05 02:18:30,client_records.db,Copied to /tmp
+2026-05-05 02:19:00,system_logs.bak,Deleted
+
+
