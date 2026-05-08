@@ -27,6 +27,17 @@ The SOC reported a "Poltergeist" on a workstation—bandwidth was disappearing, 
 2. **The Pivot:** I executed `phantom_hunter.py` to perform a two-pass correlation.
 3. **The Find:** The script successfully matched the "Ghost" PID 9999 to an established connection with **45.33.22.11** on port **1337**.
 
+## 🧠 The Forensic "Why"
+In digital forensics, RAM is known as **Volatile Memory**. If the power cuts, the evidence vanishes. This creates a "catch-me-if-you-can" scenario for attackers:
+* **The Ghost:** Fileless malware lives in the system's "brain" (RAM) and never touches the hard drive, bypassing traditional Antivirus.
+* **The Rebirth:** Attackers use "Living off the Land" (LotL) techniques—hiding a tiny script in the Registry that "re-infects" the RAM every time the computer reboots.
+* **The Hunt:** My investigation focused on capturing the "Ghost" while it was active, before the evidence was lost to a reboot.
+
+## 💻 Code Deep-Dive: The Two-Pass Strategy
+I designed `phantom_hunter.py` using a **Two-Pass Correlation** logic:
+1. **Pass One (Identity):** Using `re.search(r'\s+(\d+)\s+')`, the script acts as a digital magnet to pull the Process ID (PID) from unstructured memory dumps.
+2. **Pass Two (Correlation):** Once the PID is identified, the script pivots to the network artifacts. It uses `.split()` to parse the data streams and isolates `parts[2]`—the remote IP—to identify the attacker's Command & Control server.
+
 ## 📝 Detective's Notes
 * **Caffeine Level:** Dangerously low during initial triage, but stabilized by Step 2.
 * **The Smoking Gun:** PID 9999. It had no name and a very suspicious habit of talking to an unidentified IP on port 1337. Classic "Elite Hacker" cliché, but effective.
