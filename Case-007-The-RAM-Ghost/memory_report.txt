@@ -1,0 +1,17 @@
+VOLATILITY 3 - MEMORY ANALYSIS REPORT
+-------------------------------------
+OFFSET      PID    PPID   NAME            THREADS
+0x8d06a0    4      0      System          124
+0x8f12b0    456    4      smss.exe        2
+0x9a22c0    1024   456    wininit.exe     4
+0x9b55d0    2048   1024   services.exe    8
+0x9c88e0    3050   2048   svchost.exe     12
+0x9d99f0    5060   3050   chrome.exe      25
+0xa122b0    9999   5060   <unknown>       1      <-- SUSPICIOUS
+0xb444c0    6070   3050   notepad.exe     1
+
+NETWORK CONNECTIONS (NETSTAT)
+-----------------------------
+PID    LOCAL_ADDR           REMOTE_ADDR          STATE
+5060   192.168.1.154:443    142.250.190.46:443   ESTABLISHED
+9999   192.168.1.154:1337   45.33.22.11:4444     ESTABLISHED
