@@ -24,15 +24,15 @@
 
 ## 🚀 Strategic Pillars
 * **High-Velocity Triage:** Because nobody has time for a 6-hour scan when the server is on fire.
-* **Evidence Integrity:** SHA-256 is my best friend. If the hash doesn't match, we don't talk.
-* **Actionable IR:** Turning "scary tech data" into "here is exactly what we do next" for the stakeholders.
+* **Evidence Integrity:** Using isolated environments (venv) to ensure a clean lab and untainted results.
+* **Actionable IR:** Turning "scary tech data" into "here is exactly what we do next" for stakeholders.
 
 ---
 
 ## 🛠️ Technical Arsenal
-* **Forensics:** Wireshark (PCAP), Volatility 3, Autopsy, SleuthKit.
-* **Scripting:** Python 3.x (Regex & Automation), Bash, SQL.
-* **Environment:** Linux (Ubuntu), Windows Server 2022, VirtualBox.
+* **Forensics:** Wireshark, Scapy (DPI), Volatility 3, Autopsy, SleuthKit.
+* **Scripting:** Python 3.x (Regex & Scapy Automation), Bash, SQL.
+* **Environment:** Linux (Ubuntu), Python venv, Windows Server 2022, VirtualBox.
 
 ---
 
@@ -47,6 +47,7 @@
 | **005** | [The Hash Validator](./Case-005-Hash-Validator) | Integrity & Anti-Tampering | `Completed` |
 | **006** | [The Chrono-Stitcher](./Case-006-Chrono-Stitcher) | Timeline Normalization | `Completed` |
 | **007** | [The RAM Ghost](./Case-007-The-RAM-Ghost) | Volatile Memory Analysis | `Completed` |
+| **008** | [The Packet Whisperer](./Case-008-The-Packet-Whisperer) | Deep Packet Inspection (DPI) | `Completed` |
 
 ---
 
